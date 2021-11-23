@@ -31,4 +31,12 @@ public class TestTask {
 		Collection<Task> tasks = this.taskService.findAllTask();
 		Assert.assertEquals(1, tasks.size());
 	}
+	
+	@Test
+	public void testMoveLeftTask() {
+	}
+	
+	@Test
+	public void testMoveRightTask() {
+	}
 }

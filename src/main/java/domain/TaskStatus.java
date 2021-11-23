@@ -8,9 +8,8 @@ import lombok.Data;
 @Data
 @Entity
 public class TaskStatus {
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
+	
+	private @Id Long id;
 	private String label;
 	
 	public TaskStatus(String label) {
